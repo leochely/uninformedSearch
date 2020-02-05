@@ -28,7 +28,7 @@ for line in lines[:-2]:
 
     graph[city0][city1] = distance
     graph[city1][city0] = distance
-        
+
 visited = []
 path = {}
 queue = queue.PriorityQueue()
@@ -40,6 +40,7 @@ path[origin_city] = None
 while not queue.empty():
     distance, (city, previous_city) = queue.get()
     if city not in visited:
+        print(city)
         path[city] = previous_city
         visited.append(city)
         if city == destination_city:
