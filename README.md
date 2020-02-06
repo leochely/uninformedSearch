@@ -13,7 +13,7 @@ Code written on mac, should be OS-independent. And it is Python so it is not com
 
 ## 4. Code Structure
 First, the program reads the input file and stores the data in a dict of dict: the keys of the outher dictonary are city names, the inner dictionaries are other city names and the indexes are distances. That way, the distance between any city can be retried with 
-graph[city1][city2] (or graph[city2][city1], both are equivalent). The program then performs a uniformed search while recording the origin city of all the visited city. When the destination city is reached, the program back tracks the cities that led to the destination. 
+`graph[city1][city2]` (or `graph[city2][city1]`, both are equivalent). The program then performs a uniformed search while recording the origin city of all the visited city. When the destination city is reached, the program back tracks the cities that led to the destination. 
 These cities are then stored in a list that is reversed before being printed.
 
 ## 5. How to run
