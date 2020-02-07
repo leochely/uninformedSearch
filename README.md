@@ -2,7 +2,7 @@
 CSCI 404 Project 1
 
 ## 1. Names and CWID
-Leo Chely, 10818125
+Leo Chely, 10818125\
 David An, 10727498
 
 ## 2. Programming Language
