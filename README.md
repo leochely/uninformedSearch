@@ -1,15 +1,16 @@
 # uninformedSearch
-CSCI 404 Project 1
+CSCI 404 Project 1  
+(This file is saved as .txt to comply with the project requirements but is written in Markdown. It can be previewed with https://markdownlivepreview.com/ for an easier lecture)
 
 ## 1. Names and CWID
-Leo Chely, 10818125\
+Leo Chely, 10818125  
 David An, 10727498
 
 ## 2. Programming Language
 Python 3
 
 ## 3. OS
-Code is written on mac, and should be OS-independent. Since it is on Python it is not compiled.
+Code was written on Mac and Windows 10, but should be OS-independent (it just requires Pyhton 3.x to be installed). Since it is a Python program, it does not need to be compiled.
 
 ## 4. Code Structure
 First, the program reads the input file and stores the data in a dictionary of dictionaries: the keys of the dictonary are cities' names, and tthe inner dictionaries are other city names and the indexes/values 
